@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@import url(shake.css);
+@font-face {
+  font-family: Telefon;
+  src: url(/telefon-black-webfont.ttf); }
+@keyframes fadeOut {
+  to {
+    opacity: 0; } }
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  color: white;
+  font-size: 8vw; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+html,
+body {
+  height: 1500vh;
+  overflow-x: hidden; }
+
+body {
+  margin: 0;
+  font-family: Telefon, sans-serif; }
+  body .canvas {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background: linear-gradient(#212121, #121212);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  body .intro {
+    color: white;
+    font-size: 8vw;
+    flex-direction: row;
+    text-align: center; }
+    body .intro.fade {
+      display: none; }
+  body .mac {
+    top: 0;
+    width: 300px;
+    height: 6px;
+    background: linear-gradient(#dbdbdb, #c3c3c3);
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    z-index: 0;
+    transition: all 0.25s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; }
+    body .mac:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -1px;
+      height: 3px;
+      width: 60px;
+      transform: translateX(-50%);
+      border-radius: 0 0 3px 3px;
+      background-color: #646464;
+      z-index: 1; }
+    body .mac:after {
+      content: '';
+      position: absolute;
+      background: linear-gradient(#c3c3c3, #dbdbdb);
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -5px;
+      height: 7px;
+      width: 300px;
+      border-radius: 0 0 2px 2px;
+      border-top: 1px solid #6D6E6D;
+      z-index: 0; }
+    body .mac.show {
+      opacity: 1; }
+    body .mac.snap {
+      height: 175px;
+      width: 265px;
+      background: linear-gradient(#2c2c2c, #212121);
+      border-top: 1px solid #dbdbdb;
+      border-left: 1px solid #dbdbdb;
+      border-right: 1px solid #dbdbdb;
+      border-radius: 6px 6px 0 0; }
+      body .mac.snap .screen {
+        background: linear-gradient(#212121, #121212);
+        height: 87%;
+        width: 93%;
+        display: block;
+        position: relative;
+        border-radius: 1px; }
+        body .mac.snap .screen:before {
+          position: absolute;
+          content: '•';
+          line-height: 0;
+          font-size: 4px;
+          width: 5px;
+          height: 5px;
+          color: #1BDBAF;
+          top: -5px;
+          left: 50%; }
+        body .mac.snap .screen .progress-bar {
+          position: absolute;
+          height: 1%;
+          width: 30%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: transparent;
+          border: 1px solid #dbdbdb;
+          border-radius: 5px; }
+        body .mac.snap .screen .percentage-bar {
+          width: 0;
+          height: 1px;
+          transition: width 1s cubic-bezier(0.07, 0.43, 0.99, 0.14);
+          background-color: #dbdbdb; }
+          body .mac.snap .screen .percentage-bar.loaded {
+            width: 100%; }
+    body .mac.screen {
+      display: none; }
+  body .scroll-to-view {
+    position: fixed;
+    bottom: 10vh;
+    left: 50vw;
+    width: 15px;
+    opacity: 0.7;
+    transform: translateX(-50%);
+    display: none; }
+    body .scroll-to-view.fadeOut {
+      display: block;
+      animation: fadeOut 1s linear 0s infinite alternate; }
+    body .scroll-to-view.fade {
+      display: none; }
+
+/*# sourceMappingURL=main.css.map */
