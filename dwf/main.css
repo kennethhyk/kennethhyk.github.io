@@ -1,115 +1,142 @@
 @font-face {
   font-family: "Affogato-Light";
-  src: url(./fonts/Affogato-Light.otf); }
+  src: url(./fonts/Affogato-Light.otf);
+}
 @font-face {
   font-family: "Affogato-Regular";
-  src: url(./fonts/Affogato-Regular.otf); }
+  src: url(./fonts/Affogato-Regular.otf);
+}
 @font-face {
   font-family: "Affogato-Bold";
-  src: url(./fonts/Affogato-Bold.otf); }
+  src: url(./fonts/Affogato-Bold.otf);
+}
 @font-face {
   font-family: "Affogato-Medium";
-  src: url(./fonts/Affogato-Medium.otf); }
+  src: url(./fonts/Affogato-Medium.otf);
+}
 body {
   margin: 0;
   background-color: #3BD377;
   font-family: "Affogato-Light";
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .bigLogo {
   text-align: center;
-  padding-top: 60px; }
-  .bigLogo img {
-    width: 200px; }
+  padding-top: 60px;
+}
+.bigLogo img {
+  width: 200px;
+}
 
 .decor {
-  position: fixed; }
-  .decor img {
-    width: 30px; }
-  .decor.decor-topleft {
-    padding: 20px 0 0 25px; }
-  .decor.decor-topright {
-    padding: 20px 25px 0 0;
-    top: 0;
-    right: 0; }
-  .decor.decor-bottomleft {
-    padding: 0 0 20px 25px;
-    bottom: 0;
-    right: left; }
-  .decor.decor-bottomright {
-    padding: 0 25px 20px 0;
-    bottom: 0;
-    right: 0; }
-  .decor.decor-line-left-1 {
-    background-color: #8BEEB2;
-    top: 75px;
-    left: 40px;
-    width: 2px;
-    height: 189px; }
-  .decor.decor-line-left-2 {
-    background-color: #8BEEB2;
-    bottom: 75px;
-    left: 40px;
-    width: 2px;
-    height: 189px; }
-  .decor.decor-line-top {
-    color: #8BEEB2;
-    font-family: "Affogato-Regular";
-    top: 25px;
-    right: 70px;
-    letter-spacing: 3px; }
-  .decor.decor-line-right-1 {
-    color: #8BEEB2;
-    font-family: "Affogato-Regular";
-    transform: rotate(90deg);
-    letter-spacing: 3px;
-    top: 147px;
-    right: -44px; }
-  .decor.decor-line-right-2 {
-    background-color: #8BEEB2;
-    bottom: 75px;
-    right: 40px;
-    width: 2px;
-    height: 189px; }
-  .decor.decor-bottomcenter {
-    position: absolute;
-    padding: 0 0 20px 0;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%); }
+  position: fixed;
+}
+.decor img {
+  width: 30px;
+}
+.decor.decor-topleft {
+  padding: 20px 0 0 25px;
+}
+.decor.decor-topright {
+  padding: 20px 25px 0 0;
+  top: 0;
+  right: 0;
+}
+.decor.decor-bottomleft {
+  padding: 0 0 20px 25px;
+  bottom: 0;
+  right: left;
+}
+.decor.decor-bottomright {
+  padding: 0 25px 20px 0;
+  bottom: 0;
+  right: 0;
+}
+.decor.decor-line-left-1 {
+  background-color: #8BEEB2;
+  top: 75px;
+  left: 40px;
+  width: 2px;
+  height: 189px;
+}
+.decor.decor-line-left-2 {
+  background-color: #8BEEB2;
+  bottom: 75px;
+  left: 40px;
+  width: 2px;
+  height: 189px;
+}
+.decor.decor-line-top {
+  color: #8BEEB2;
+  font-family: "Affogato-Regular";
+  top: 25px;
+  right: 70px;
+  letter-spacing: 3px;
+}
+.decor.decor-line-right-1 {
+  color: #8BEEB2;
+  font-family: "Affogato-Regular";
+  transform: rotate(90deg);
+  letter-spacing: 3px;
+  top: 147px;
+  right: -44px;
+}
+.decor.decor-line-right-2 {
+  background-color: #8BEEB2;
+  bottom: 75px;
+  right: 40px;
+  width: 2px;
+  height: 189px;
+}
+.decor.decor-bottomcenter {
+  position: absolute;
+  padding: 0 0 20px 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 .leftMenu {
   z-index: 4;
   position: fixed;
   top: 50%;
   padding-left: 9px;
-  transform: translateY(-50%); }
-  .leftMenu .leftMenu-item {
-    transition: transform 0.3s ease;
-    margin: 6px 0;
-    padding: 8px 20px; }
-    .leftMenu .leftMenu-item:hover {
-      transform: translateX(20px); }
-    .leftMenu .leftMenu-item.selected a {
-      padding: 2px 7px;
-      background-color: #fff;
-      color: #000; }
-    .leftMenu .leftMenu-item img {
-      width: 25px;
-      vertical-align: middle;
-      margin-right: 30px; }
-    .leftMenu .leftMenu-item a {
-      vertical-align: middle;
-      color: #fff;
-      text-decoration: none;
-      font-family: "Affogato-Bold";
-      letter-spacing: 3px; }
-  .leftMenu.flip .leftMenu-item a {
-    color: #000; }
-  .leftMenu.flip .leftMenu-item.selected a {
-    padding: 2px 7px;
-    background-color: #000;
-    color: #fff; }
+  transform: translateY(-50%);
+}
+.leftMenu .leftMenu-item {
+  transition: transform 0.3s ease;
+  margin: 6px 0;
+  padding: 8px 20px;
+}
+.leftMenu .leftMenu-item:hover {
+  transform: translateX(20px);
+}
+.leftMenu .leftMenu-item.selected a {
+  padding: 2px 7px;
+  background-color: #fff;
+  color: #000;
+}
+.leftMenu .leftMenu-item img {
+  width: 25px;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+.leftMenu .leftMenu-item a {
+  vertical-align: middle;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Affogato-Bold";
+  letter-spacing: 3px;
+}
+.leftMenu.flip .leftMenu-item a {
+  color: #000;
+}
+.leftMenu.flip .leftMenu-item.selected a {
+  padding: 2px 7px;
+  background-color: #000;
+  color: #fff;
+}
 
 .bgdiv {
   position: absolute;
@@ -120,46 +147,55 @@ body {
   height: 200px;
   z-index: -1;
   top: 50%;
-  transform: translateY(-50%); }
-  .bgdiv h1 {
-    align-self: center;
-    width: 325px;
-    font-family: "Affogato-Light";
-    font-weight: normal;
-    font-size: 32px;
-    text-align: right;
-    letter-spacing: 2px; }
+  transform: translateY(-50%);
+}
+.bgdiv h1 {
+  align-self: center;
+  width: 325px;
+  font-family: "Affogato-Light";
+  font-weight: normal;
+  font-size: 32px;
+  text-align: right;
+  letter-spacing: 2px;
+}
 
 .bigphone {
   align-self: center;
   margin-left: 60px;
-  transform: translateY(-31px); }
+  transform: translateY(-31px);
+}
 
 .flex-parent {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .flex {
-  align-self: center; }
+  align-self: center;
+}
 
 .centerDiv {
   text-align: center;
   margin: 0 50px;
   font-size: 30px;
-  transform: translateY(-30px); }
+  transform: translateY(-30px);
+}
 
 .leftPhone img, .rightPhone img {
   opacity: 0;
-  width: 200px; }
+  width: 200px;
+}
 
 .description {
   font-family: "Affogato-Regular";
   padding: 16px 0 0 0;
-  text-align: center; }
+  text-align: center;
+}
 
 .contentDiv {
   width: 100%;
-  height: 100vh; }
+  height: 100vh;
+}
 
 .designLandingPage {
   position: absolute;
@@ -169,147 +205,187 @@ body {
   text-align: center;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+}
 
 .spriteContainer {
   width: 300px;
-  text-align: center; }
-  .spriteContainer .sprite {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    background-color: #fff; }
-  .spriteContainer .nodeImage {
-    margin-left: 60px; }
-    .spriteContainer .nodeImage img {
-      width: 250px; }
+  text-align: center;
+}
+.spriteContainer .sprite {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+}
+.spriteContainer .nodeImage {
+  margin-left: 60px;
+}
+.spriteContainer .nodeImage img {
+  width: 250px;
+}
 
 .fsmTitle {
   font-family: "Affogato-Medium";
   font-size: 32px;
   margin-bottom: 20px;
-  text-align: center; }
+  text-align: center;
+}
 
 .fsmImage {
   text-align: center;
-  margin-top: 70px; }
-  .fsmImage img {
-    width: 700px; }
+  margin-top: 70px;
+}
+.fsmImage img {
+  width: 700px;
+}
 
 .fsmdes {
   padding: 100px 300px 0;
   line-height: 25px;
   font-size: 18px;
   text-align: justify;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .spriteKit {
   width: 500px;
   line-height: 25px;
   font-size: 18px;
   letter-spacing: 0.5px;
-  text-align: justify; }
-  .spriteKit .spriteTitle {
-    font-family: "Affogato-Medium";
-    font-size: 32px;
-    margin-bottom: 20px; }
-  .spriteKit .nodeTitle {
-    font-family: "Affogato-Medium";
-    font-size: 32px;
-    margin-bottom: 20px;
-    text-align: right; }
-  .spriteKit .node {
-    text-align: justify;
-    line-height: 25px;
-    font-size: 18px; }
+  text-align: justify;
+}
+.spriteKit .spriteTitle {
+  font-family: "Affogato-Medium";
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.spriteKit .nodeTitle {
+  font-family: "Affogato-Medium";
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+.spriteKit .node {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 18px;
+}
 
 .acknowledgement-container {
-  padding: 0 300px 0 450px; }
-  .acknowledgement-container .acknowledgement-title {
-    font-family: "Affogato-Medium";
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 60px;
-    text-decoration: underline; }
-  .acknowledgement-container .acknowledgement-content {
-    font-family: "Affogato-Medium";
-    text-align: justify;
-    letter-spacing: 1px; }
+  padding: 0 300px 0 450px;
+}
+.acknowledgement-container .acknowledgement-title {
+  font-family: "Affogato-Medium";
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+  text-decoration: underline;
+}
+.acknowledgement-container .acknowledgement-content {
+  font-family: "Affogato-Medium";
+  text-align: justify;
+  letter-spacing: 1px;
+}
 
 .aboutus {
   background-color: #fff;
-  padding: 60px 200px 60px 250px; }
-  .aboutus .dwfh3 {
-    font-size: 24px;
-    color: #2f2f2f;
-    font-family: "Affogato-Medium";
-    letter-spacing: 1px;
-    text-align: center;
-    margin: 50px 0 108px; }
-  .aboutus .members {
-    margin: 100px 0; }
-    .aboutus .members .member-pic img {
-      width: 200px; }
-    .aboutus .members .member-intro {
-      margin-left: 50px; }
-      .aboutus .members .member-intro.right {
-        margin-right: 50px;
-        margin-left: 0; }
-      .aboutus .members .member-intro .member-name {
-        font-size: 24px;
-        color: #2f2f2f;
-        font-family: "Affogato-Medium";
-        margin-bottom: 20px;
-        vertical-align: middle; }
-        .aboutus .members .member-intro .member-name .title {
-          display: inline;
-          color: #a4a4a4;
-          font-family: "Affogato-Regular";
-          font-size: 14px;
-          vertical-align: middle; }
-        .aboutus .members .member-intro .member-name a {
-          text-decoration: none;
-          vertical-align: middle; }
-          .aboutus .members .member-intro .member-name a img {
-            width: 18px; }
-        .aboutus .members .member-intro .member-name.right {
-          text-align: right; }
-      .aboutus .members .member-intro .member-description {
-        text-align: justify;
-        color: #2f2f2f;
-        font-family: "Affogato-Regular";
-        letter-spacing: 0.5px; }
+  padding: 60px 200px 60px 250px;
+}
+.aboutus .dwfh3 {
+  font-size: 24px;
+  color: #2f2f2f;
+  font-family: "Affogato-Medium";
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 50px 0 108px;
+}
+.aboutus .members {
+  margin: 100px 0;
+}
+.aboutus .members .member-pic img {
+  width: 200px;
+}
+.aboutus .members .member-intro {
+  margin-left: 50px;
+}
+.aboutus .members .member-intro.right {
+  margin-right: 50px;
+  margin-left: 0;
+}
+.aboutus .members .member-intro .member-name {
+  font-size: 24px;
+  color: #2f2f2f;
+  font-family: "Affogato-Medium";
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+.aboutus .members .member-intro .member-name .title {
+  display: inline;
+  color: #a4a4a4;
+  font-family: "Affogato-Regular";
+  font-size: 14px;
+  vertical-align: middle;
+}
+.aboutus .members .member-intro .member-name a {
+  text-decoration: none;
+  vertical-align: middle;
+}
+.aboutus .members .member-intro .member-name a img {
+  width: 18px;
+}
+.aboutus .members .member-intro .member-name.right {
+  text-align: right;
+}
+.aboutus .members .member-intro .member-description {
+  text-align: justify;
+  color: #2f2f2f;
+  font-family: "Affogato-Regular";
+  letter-spacing: 0.5px;
+}
 
 .team {
-  background-color: #fff; }
-  .team .demodayDes {
-    color: #2f2f2f;
-    text-align: center;
-    padding: 60px 200px 0 250px;
-    font-family: "Affogato-Regular"; }
-  .team .connectLine {
-    text-align: center;
-    padding: 30px 0; }
-    .team .connectLine .line {
-      display: inline-block;
-      background-color: #000;
-      width: 1px;
-      height: 150px; }
-  .team .teampic img {
-    width: 100vw; }
+  background-color: #fff;
+}
+.team .demodayDes {
+  color: #2f2f2f;
+  text-align: center;
+  padding: 60px 200px 0 250px;
+  font-family: "Affogato-Regular";
+}
+.team .connectLine {
+  text-align: center;
+  padding: 30px 0;
+}
+.team .connectLine .line {
+  display: inline-block;
+  background-color: #000;
+  width: 1px;
+  height: 150px;
+}
+.team .teampic img {
+  width: 100vw;
+}
 
 .reference {
   background-color: #2f2f2f;
   color: #dedede;
   padding: 40px 144px;
-  font-size: 12px; }
-  .reference .index {
-    font-family: "Affogato-Bold";
-    display: inline; }
-    .reference .index.title {
-      font-family: "Affogato-Light";
-      display: block;
-      margin-bottom: 5px;
-      letter-spacing: 4px; }
+  font-size: 12px;
+}
+.reference .index {
+  font-family: "Affogato-Bold";
+  display: inline;
+}
+.reference .index.title {
+  font-family: "Affogato-Light";
+  display: block;
+  margin-bottom: 5px;
+  letter-spacing: 4px;
+}
+
+.demo-video {
+  width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
