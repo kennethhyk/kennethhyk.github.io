@@ -401,6 +401,11 @@ body {
 	}
 }
 
-.demo-video {
-	width: 100%;
+.demo-video-wrapper {
+	display: flex;
+	align-items: center;
+	width: 65vw;
+	video {
+		width:100%;
+	}
 }

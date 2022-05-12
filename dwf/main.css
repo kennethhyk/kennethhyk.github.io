@@ -384,7 +384,12 @@ body {
   letter-spacing: 4px;
 }
 
-.demo-video {
+.demo-video-wrapper {
+  display: flex;
+  align-items: center;
+  width: 65vw;
+}
+.demo-video-wrapper video {
   width: 100%;
 }
 
