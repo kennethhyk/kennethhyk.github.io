@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Info</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iOS-Edge-Glyph" transform="translate(-451.000000, -128.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M463.5,128 C456.61,128 451,133.61 451,140.5 C451,147.39 456.61,153 463.5,153 C470.39,153 476,147.39 476,140.5 C476,133.61 470.39,128 463.5,128 Z M465,146.44 C465,146.75 464.75,147 464.44,147 L462.56,147 C462.25,147 462,146.75 462,146.44 L462,140.56 C462,140.25 462.25,140 462.56,140 L464.44,140 C464.75,140 465,140.25 465,140.56 L465,146.44 Z M463.5,138.49 C462.4,138.49 461.5,137.59 461.5,136.49 C461.5,135.39 462.4,134.49 463.5,134.49 C464.6,134.49 465.5,135.39 465.5,136.49 C465.5,137.59 464.6,138.49 463.5,138.49 Z" id="Info"></path>
+        </g>
+    </g>
+</svg>

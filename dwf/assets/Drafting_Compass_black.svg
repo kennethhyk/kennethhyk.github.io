@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="25px" viewBox="0 0 21 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Drafting_Compass</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-28.000000, -377.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Drafting_Compass" transform="translate(28.000000, 377.000000)">
+                <path d="M20.12,24.26 L16.11,17 L19,17 L19,16 L15.56,16 L12.84,11.08 C13.55,10.44 14,9.52 14,8.5 C14,6.74 12.69,5.3 11,5.05 L11,4 L11.5,4 C11.78,4 12,3.78 12,3.5 L12,0.5 C12,0.22 11.78,0 11.5,0 L9.5,0 C9.22,0 9,0.22 9,0.5 L9,3.5 C9,3.78 9.22,4 9.5,4 L10,4 L10,5.05 C8.31,5.3 7,6.74 7,8.5 C7,9.53 7.45,10.44 8.16,11.08 L5.44,16 L2,16 L2,17 L4.89,17 L0.88,24.26 L1.76,24.74 L6.04,17 L10,17 L10,19 L11,19 L11,17 L14.97,17 L19.25,24.74 L20.12,24.26 Z M11,16 L11,14 L10,14 L10,16 L6.59,16 L9,11.64 C9.46,11.86 9.97,12 10.51,12 C11.05,12 11.56,11.87 12.02,11.64 L14.43,16 L11,16 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
